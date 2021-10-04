@@ -10,6 +10,8 @@ public class MainTest {
 
         Main main = new Main();
         Assert.assertTrue(main.ifInside(1, 4));
+        Assert.assertTrue(main.ifInside(-2, 3));
+        Assert.assertTrue(main.ifInside(2, 3));
     }
 
 }
