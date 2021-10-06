@@ -23,10 +23,6 @@ public class Main {
     }
 
     public static void printResult(boolean ifInside) {
-        if (ifInside) {
-            System.out.println("true");
-        } else {
-            System.out.println("false");
-        }
+        System.out.println(ifInside);
     }
 }
